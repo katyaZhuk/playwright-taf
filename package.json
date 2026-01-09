@@ -1,0 +1,20 @@
+{
+  "name": "playwright-taf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katyaZhuk/playwright-taf.git"
+  },
+  "keywords": [],
+  "author": "Katsiaryna Zhuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katyaZhuk/playwright-taf/issues"
+  },
+  "homepage": "https://github.com/katyaZhuk/playwright-taf#readme"
+}
