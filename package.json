@@ -1,10 +1,14 @@
 {
   "name": "playwright-taf",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright Test Automation Framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test",
+    "report:html": "playwright show-report",
+    "test:debug": "playwright test --debug",
+    "test:trace": "playwright test --trace on",
+    "lint": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,20 @@
   "bugs": {
     "url": "https://github.com/katyaZhuk/playwright-taf/issues"
   },
-  "homepage": "https://github.com/katyaZhuk/playwright-taf#readme"
+  "homepage": "https://github.com/katyaZhuk/playwright-taf#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^24.0.10",
+    "dotenv": "^17.1.0",
+    "eslint": "^9.30.1",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "globals": "^16.3.0",
+    "playwright": "^1.53.2",
+    "prettier": "^3.6.2",
+    "typescript": "^5.3.3",
+    "typescript-eslint": "^8.36.0",
+    "winston": "^3.17.0"
+  }
 }

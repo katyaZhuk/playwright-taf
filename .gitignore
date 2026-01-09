@@ -1,5 +1,6 @@
 # Logs
 logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -139,3 +140,18 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 .idea/
+
+# Playwright-specific files
+playwright-report/
+playwright-results/
+test-results/
+blob-report/
+playwright/.cache/
+trace.zip
+*.trace.zip
+screenshots/
+videos/
+
+
+
+
